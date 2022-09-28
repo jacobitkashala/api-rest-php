@@ -18,7 +18,8 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
 
     // On instancie les produits
     $produit = new Produits($db);
-
+    //http_response_code(200);
+   // echo json_encode(["message" => "La méthode n'est pas autorisée"]);
     // On récupère les données
     $stmt = $produit->lire();
 

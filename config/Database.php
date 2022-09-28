@@ -1,10 +1,12 @@
 <?php
 class Database{
     // Connexion à la base de données
-    private $host = "localhost";
+
+
+    private $host = "127.0.0.1";
     private $db_name = "api_rest";
-    private $username = "root";
-    private $password = "";
+    private $username = "jaco";
+    private $password = "1234";
     public $connexion;
 
     // getter pour la connexion
